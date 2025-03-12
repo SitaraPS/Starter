@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulting & Digital Solutions</title>
+  
+  <!-- Link to External Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="container">
+      <h1>Transform Your Business with Innovative Solutions</h1>
+      <p>Empowering companies to succeed in the digital world through expert consulting and digital services.</p>
+      <a href="#services" class="btn">Discover Our Services</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services">
+    <div class="container">
+      <h2>Our Core Services</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <h3>Business Consulting</h3>
+          <p>We offer strategic advice to help you streamline operations and maximize efficiency. Our team has over 10 years of experience in business optimization.</p>
+        </div>
+        <div class="service-card">
+          <h3>Digital Marketing</h3>
+          <p>Our digital marketing strategies are tailored to boost brand visibility and generate high-quality leads. We focus on SEO, content marketing, and social media growth.</p>
+        </div>
+        <div class="service-card">
+          <h3>Custom Web Development</h3>
+          <p>We design and develop bespoke websites that cater to your unique business needs. Our team specializes in responsive and user-friendly designs that convert visitors into customers.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <div class="container">
+      <h2>Our Work</h2>
+      <div class="portfolio-cards">
+        <div class="portfolio-card">
+          <img src="https://via.placeholder.com/300x200" alt="Project 1">
+          <h3>E-commerce Platform</h3>
+          <p>A fully responsive e-commerce platform for a leading fashion retailer.</p>
+        </div>
+        <div class="portfolio-card">
+          <img src="https://via.placeholder.com/300x200" alt="Project 2">
+          <h3>Corporate Branding</h3>
+          <p>Rebranding of a large corporation to improve market perception and increase engagement.</p>
+        </div>
+        <div class="portfolio-card">
+          <img src="https://via.placeholder.com/300x200" alt="Project 3">
+          <h3>Startup Consulting</h3>
+          <p>Business strategy and consulting services for a high-growth tech startup.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="How can we assist you?" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Digital Solutions Agency. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link to JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
